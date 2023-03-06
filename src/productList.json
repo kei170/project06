@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "돼지 방어회",
+      "detail": "[나혼자] 돼지방어회(1인용)",
+      "price": 25000,
+      "imageUrl": "/images/fish01.jpg"
+    },
+    {
+      "id": "2",
+      "name": "참숭어",
+      "detail": "여수 참숭어 (1인용)",
+      "price": 19500,
+      "imageUrl": "./images/fish02.jpg"
+    },
+    {
+      "id": "3",
+      "name": "광어회",
+      "detail": "[나혼자] 자연산 광어회 (1인용)",
+      "price": 21900,
+      "imageUrl": "./images/fish03.jpg"
+    },
+    {
+      "id": "4",
+      "name": "연어회",
+      "detail": "[나혼자] 연어회 (1인용)",
+      "price": 14900,
+      "imageUrl": "./images/fish04.jpg"
+    },
+    {
+      "id": "5",
+      "name": "돼지방어회",
+      "detail": "[동해] 돼지방어회 (2인용)",
+      "price": 49000,
+      "imageUrl": "./images/fish05.jpg"
+    },
+    {
+      "id": "6",
+      "name": "주꾸미",
+      "detail": "주꾸미 부추찜",
+      "price": 25000,
+      "imageUrl": "./images/fish06.jpg"
+    },
+    {
+      "id": "7",
+      "name": "삼겹살",
+      "detail": "[초신선] 무항생제 삼겹살 구이용 400g",
+      "price": 13500,
+      "imageUrl": "./images/fish07.jpg"
+    },
+    {
+      "id": "8",
+      "name": "대개찜",
+      "detail": "싱싱한 대개찜",
+      "price": 79000,
+      "imageUrl": "./images/fish08.jpg"
+    },
+    {
+      "id": "9",
+      "name": "광어회",
+      "detail": "자연산 광어회",
+      "price": 35500,
+      "imageUrl": "./images/fish09.jpg"
+    },
+    {
+      "id": "10",
+      "name": "여수참숭어",
+      "detail": "[나혼자] 여수 참숭어 (1인용)",
+      "price":19500,
+      "imageUrl": "./images/fish10.jpg"
+    },
+    {
+      "id": "11",
+      "name": "성게알",
+      "detail": "[통영] 해수 냉장 성게알 150g",
+      "price":30000,
+      "imageUrl": "./images/fish11.jpg"
+    },
+    {
+      "id": "12",
+      "name": "생연어회",
+      "detail": "항공직송 생연어회 (2인용)",
+      "price": 29000,
+      "imageUrl": "./images/fish12.jpg"
+    }
+  ]
+}

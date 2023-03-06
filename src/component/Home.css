@@ -1,0 +1,247 @@
+@media (min-width: 1500px){
+    .boxHome{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .boxHome>figure{
+            width: calc(25% - 1em);
+            padding: 10px;
+            margin: 0 0 1em;
+            border: 3px solid #ddd;
+            box-sizing: border-box;
+    }
+    .boxHome>figure>img{
+            width: 100%;
+    }
+    figcaption{
+        width: 200px;
+        margin: 10px 10px;
+        text-align: center;
+    }
+    figcaption>dl{}
+    figcaption>dl>dt{
+        color: seagreen;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    figcaption>dl>dd{
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    figcaption>dl>dd>button{
+        width: 100px;
+        padding: 10px;
+        color: seagreen;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+    
+    }
+    figcaption>dl>dd>button:hover{
+        background-color: skyblue;
+        color: seagreen;
+    }
+    
+        
+    .info{
+        width: 1200px;
+        padding: 10px 10px;
+        margin: 0 auto;
+        background-color: #ddd;
+        color: #fff;
+    }
+    .info>h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .service{
+        width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service>li{
+        padding: 0 10px;
+        font-size: 20px;
+        margin: 0 auto 10px;
+    }
+    .service>li:hover{
+        background-color: salmon;
+        color: seagreen;
+        cursor: pointer; 
+    }
+    .lince{
+        font-size: 30px;
+        color: #000;
+    }
+}
+
+@media (max-width:1500px) and (min-width:769px){
+    .boxHome{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .boxHome>figure{
+            width: calc(33.3333% - 1em);
+            padding: 10px;
+            margin: 0 0 1em;
+            border: 3px solid #ddd;
+            box-sizing: border-box;
+    }
+    .boxHome>figure>img{
+            width: 100%;
+    }
+    figcaption{
+        width: 200px;
+        margin: 10px 10px;
+        text-align: center;
+    }
+    figcaption>dl{}
+    figcaption>dl>dt{
+        color: salmon;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+    figcaption>dl>dd{
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+    figcaption>dl>dd>button{
+        width: 100px;
+        padding: 10px;
+        color: slateblue;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+    
+    }
+    figcaption>dl>dd>button:hover{
+        background-color: salmon;
+        color: #000;
+    }
+    .info{
+        width: 100%;
+        padding: 1rem 1rem;
+        margin: 0 auto;
+        background-color: skyblue;
+        color: #fff;
+    }
+    .info>h2{
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+    .service{
+        width: 800%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service>li{
+        padding: 0 10px;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .service>li:hover{
+        background-color: salmon;
+        color: seagreen;
+    }
+    .lince{
+        font-size: 2rem;
+        color: #000;
+    }
+}
+
+
+@media (max-width: 768px){
+    .boxHome{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .boxHome>figure{
+            width: calc(50% - 1em);
+            padding: 10px;
+            margin: 0 0 1em;
+            border: 3px solid #ddd;
+            box-sizing: border-box;
+    }
+    .boxHome>figure>img{
+            width: 100%;
+    }
+    figcaption{
+        width: 200px;
+        margin: 10px 10px;
+        text-align: center;
+    }
+    figcaption>dl{}
+    figcaption>dl>dt{
+        color: brown;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+    figcaption>dl>dd{
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+    figcaption>dl>dd>button{
+        width: 100px;
+        padding: 10px;
+        color: seagreen;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+    
+    }
+    figcaption>dl>dd>button:hover{
+        background-color: cornflowerblue;
+        color: #000;
+    }
+    
+    .info{
+        width: 100%;
+        padding: 0.5rem 0.5rem;
+        margin: 0 auto;
+        background-color: salmon;
+        color: #fff;
+    }
+    .info>h2{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .service{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service>li{
+        padding: 0 0.5rem;
+        font-size: 1.5rem;
+        margin: 0 auto 0.5rem;
+    }
+    .service>li:hover{
+        background-color: salmon;
+        color: seagreen;
+        cursor: pointer; 
+    }
+    .lince{
+        font-size: 2rem;
+        color: #000;
+    }
+}
+
+
+    
+
+

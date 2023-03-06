@@ -1,0 +1,89 @@
+h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: green;
+}
+
+@media (min-width:1500px){
+    .boxPage{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .boxPage > figure{
+        width: calc(25% - 1em);
+        margin: 0 0 1em;
+        padding: 10px;
+        border: 3px solid #ddd;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .boxPage > figure > img{
+        width: 100%;
+    }
+}
+
+@media (max-width:1500px) and (min-width:769px){
+    .boxPage{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .boxPage > figure{
+        width: calc(33.3333% - 1em);
+        margin: 0 0 1em;
+        padding: 10px;
+        border: 3px solid #ddd;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .boxPage > figure > img{
+        width: 100%;
+    }
+}
+
+@media (max-width:768px){
+    .boxPage{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .boxPage > figure{
+        width: calc(50% - 1em);
+        margin: 0 0 1em;
+        padding: 10px;
+        border: 3px solid #ddd;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .boxPage > figure > img{
+        width: 100%;
+    }
+}
+
+footer{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+}
+footer>p{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+
+
+
