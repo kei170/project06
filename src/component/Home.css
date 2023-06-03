@@ -55,7 +55,7 @@
         color: #fff;
     }
     .info>h2{
-        font-size: 30px;
+        font-size: 20px;
         margin-bottom: 20px;
     }
     .service{
@@ -75,8 +75,8 @@
         cursor: pointer; 
     }
     .lince{
-        font-size: 30px;
-        color: #000;
+        font-size: 20px;
+        color: #fff;
     }
 }
 
@@ -131,11 +131,11 @@
         width: 100%;
         padding: 1rem 1rem;
         margin: 0 auto;
-        background-color: skyblue;
+        background-color: #ddd;
         color: #fff;
     }
     .info>h2{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         margin-bottom: 2.5rem;
     }
     .service{
@@ -154,8 +154,8 @@
         color: seagreen;
     }
     .lince{
-        font-size: 2rem;
-        color: #000;
+        font-size: 1.5rem;
+        color: #fff;
     }
 }
 
@@ -212,11 +212,11 @@
         width: 100%;
         padding: 0.5rem 0.5rem;
         margin: 0 auto;
-        background-color: salmon;
+        background-color: #ddd;
         color: #fff;
     }
     .info>h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-bottom: 2rem;
     }
     .service{
@@ -236,8 +236,8 @@
         cursor: pointer; 
     }
     .lince{
-        font-size: 2rem;
-        color: #000;
+        font-size: 1.5rem;
+        color: #fff;
     }
 }
 
